@@ -157,8 +157,8 @@ img {
 
 .l-container {
     width: 90%;
-    margin: 0 auto;
     max-width: var(--width);
+    margin: 0 auto;
 }
 
 /* コンポーネント */
@@ -181,8 +181,53 @@ img {
     position: absolute;
 }
 
-.kv-visual-img {
+.kv-visual-bg__wrapper {
     width: 100vw;
 }
 
 /* concept */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about__title {
+    font-size: 36px;
+    letter-spacing: 0.06em;
+    color: var(--color-font-color);
+}
+
+.about__catch {
+    font-size: 84px;
+    letter-spacing: 0.06em;
+    color: var(--color-font-color);
+    margin-bottom: 20px;
+}
+
+.about__p {
+    width: 473px;
+}
+
+.about__img {
+    width: 460px;
+    height: auto;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-list-item {
+    margin: 20px 20px;
+
+}
+
+.menu-list-item-about {
+    display: block;
+}
+
+.menu-list-item-img {
+    width: 70%;
+}
