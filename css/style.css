@@ -1,0 +1,188 @@
+:root {
+    --color-component-bg: #fff;
+    --color-text: #000;
+    --color-menu-bg: #FCF9F2;
+    --color-font-color: #11361f;
+}
+
+:root {
+    --width: 1080px;
+}
+
+/* リセットCSS */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before,
+q:after {
+    content: "";
+}
+
+abbr,
+acronym {
+    border: 0;
+    font-variant: normal;
+}
+
+sup {
+    vertical-align: text-top;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+input,
+textarea,
+select,
+button {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    *font-size: 100%;
+}
+
+legend {
+    color: #000;
+}
+
+main {
+    display: block;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* サイト設定 */
+html {
+    background: var(--color-menu-bg);
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.35;
+    letter-spacing: 0.08em;
+    color: var(--color-text);
+    font-family: 'Noto Sans JP', 'Oswald', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.l-container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: var(--width);
+}
+
+/* コンポーネント */
+.component {
+    display: inline;
+    vertical-align: bottom;
+    color: var(--color-font-color);
+    text-align: center;
+    font-size: 36px;
+    line-height: 0.83;
+    text-decoration: underline 1px var(--color-font-color);
+}
+
+.component__title {
+    margin-top: 20px;
+}
+
+/* キービジュアル */
+.kv-visual__logo-wrapper {
+    position: absolute;
+}
+
+.kv-visual-img {
+    width: 100vw;
+}
+
+/* concept */
