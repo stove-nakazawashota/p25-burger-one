@@ -210,24 +210,96 @@ img {
 }
 
 .about__img {
-    width: 460px;
-    height: auto;
+    width: 390px;
 }
 
 .menu-list {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
 }
 
 .menu-list-item {
-    margin: 20px 20px;
-
+    padding: 20px 20px;
 }
 
-.menu-list-item-about {
-    display: block;
+.menu-list-item-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-size: 26px;
 }
 
-.menu-list-item-img {
-    width: 70%;
+.menu-list-item-txt {
+    font-size: 12px;
+}
+
+.separate .bbg-bg {
+    margin-bottom: 500px;
+}
+
+.separate .bbq-bg-img {
+    width: 100%;
+    height: 496px;
+}
+
+.shop-info {
+    display: flex;
+    width: 90%;
+    max-width: var(--width);
+    margin: 0 auto;
+    padding: 100px 0;
+    align-items: center;
+}
+
+.shop-info-flex-left {
+    padding-right: 20px;
+}
+
+.shop-info-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.shop-info-txt {
+    width: 490px;
+    padding: 16px 0;
+}
+
+.pd-info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.pd-info-flex {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+
+.pd-logo-img {
+    width: 233px;
+}
+
+.sns-links {
+    display: flex;
+    padding-left: 340px;
+    margin-top: 35px;
+}
+
+.sns-links-item {
+    padding-left: 20px;
+}
+
+.footer {
+    background: var(--color-font-color);
+}
+
+.footer .copyright {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    height: 60px;
+    padding-top: 20px;
 }
