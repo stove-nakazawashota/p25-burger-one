@@ -178,24 +178,27 @@ img {
 
 /* キービジュアル */
 .kv-visual {
-    position: relative;
+
 }
 
 .kv-visual__bg {
     background-image: url(../img/kv-img\ 1.png);
     height: 540px;
     background-repeat: no-repeat;
-    position: absolute;
 }
 
 .kv-visual__logo {
     background-image: url(../img/logo\ 1.png);
     height: 300px;
     background-repeat :no-repeat;
-    position: absolute;
 }
 
 /* concept */
+.concept {
+    width: 96%;
+    margin: 0 auto;
+}
+
 .about {
     display: flex;
     align-items: center;
@@ -317,16 +320,22 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+    .kv-visual {
+        position: relative;
+    }
+
     .about__catch {
         font-size: 54px;
     }
 
     .l-container {
         margin: 0 auto;
+        /* display: flex; */
+        flex-flow: wrap;
     }
 
-    .concept {
-        /* text-align: center; */
+    .about__img {
+        width: 90%;
     }
 
     .menu {
@@ -337,9 +346,6 @@ img {
         flex: none;
     }
 
-    .menu-list-item-info {
-    }
-
     .about {
         display: flex;
         flex-direction: column-reverse;
@@ -347,16 +353,22 @@ img {
         text-align: left;
     }
 
+    .about__img-wrapper {
+        text-align: center;
+    }
+
     .about__p {
-        width: 90%;
+        width: 85%;
+        margin: 0 auto;
     }
 
     .about__title {
         font-size: 30px;
+        text-align: center
     }
 
-    .about__p {
-        width: 90%;
+    .about__txt {
+        text-align: center;
     }
 
 
@@ -368,11 +380,13 @@ img {
     .shop {
         display: flex;
         flex-direction: column;
+        margin: 0 auto;
     }
 
     .shop-info {
         display: flex;
         flex-direction: column;
+        margin: 0 auto;
     }
 
     .shop-info-txt {
