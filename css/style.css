@@ -177,9 +177,6 @@ img {
 }
 
 /* キービジュアル */
-.kv-visual {
-
-}
 
 .kv-visual__bg {
     background-image: url(../img/kv-img\ 1.png);
@@ -250,6 +247,9 @@ img {
 .separate {
     background-image: url(../img/separate.png);
     height: 340px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .shop {
@@ -289,7 +289,7 @@ img {
 .pd-info-flex {
     /* display: flex; */
     align-items: center;
-    margin-left: 20px;
+    margin-left: 1%;
 }
 
 
@@ -421,7 +421,7 @@ img {
     }
 
     .sns-links-item {
-        padding: 20px;
+        padding: 5px;
     }
 
     .footer {
