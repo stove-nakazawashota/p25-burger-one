@@ -183,7 +183,7 @@ img {
     height: 540px;
     background-repeat: no-repeat;
     width: 100%;
-    z-index: -1;
+    background-size: cover;
 }
 
 .kv-visual__logo {
@@ -290,15 +290,12 @@ img {
     background: var(--color-menu-bg);
 }
 
-.pd-info-flex {
-    /* display: flex; */
-    align-items: center;
-    margin-left: 1%;
-}
+/* .pd-info-flex {
+} */
 
 
 .pd-logo-img {
-    width: 233px;
+    width: 210px;
 }
 
 .sns-links {
@@ -405,6 +402,7 @@ img {
     .pd-info-flex {
         display: flex;
         flex-direction: column;
+        padding-top: 20px;
         padding-bottom: 10px;
     }
 
